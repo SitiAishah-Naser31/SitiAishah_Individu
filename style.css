@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100%;
+	background-image: url("background.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+menu-icon{
+	width: 25px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px
+}
+nav ul li{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+.content h1{
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #232d60;
+}
+.content p{
+	font-size= 20px;
+	color: #FFC0CB;
+	background: linear-gradient(45deg, #a0a0a0, #ff77cd);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+	
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.content .btn{
+	display: inline-block;
+	background: linear-gradient(45deg, #87adfe, #ff77cd);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+h3 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: black;
+  font-family: courier;
+  font-size: 160%;
+}
+img{
+	width: 20%;
+	height: 20%;
+}
+.content{
+	margin: 150px auto;
+	width: 50%;
+	padding: 8px;
+}
+img{
+	float: left;
+	width: 300px;
+	height: 260px;
+	padding: 0 10px 0 0;
+}
+.text{
+	text-align: justify;
+	font-family: verdana;
+}
+	
+.contacts{
+	margin: 0;
+	padding: 0;
+	background: rgb(255, 210, 253)
+}
+		
+.social-links{
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	width: 200px;
+	margin: 0 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	background-color: rgb(255, 210, 253);
+	border-radius: 50%;
+	border: 1px solid rgba(214, 202, 0.72);
+	box-shadow: 8px 8px 12px -2px rgb(187, 192, 196),
+	-5px -5px 9px -2px rgb(173, 177, 177);
+	transition: transform 1s;
+	box-shadow: inset 6px 6px 8px -2px rgb(168, 170, 172),
+			inset -6px -6px 8px -2px rgb(193, 211, 214),
+			0px 12px 10px -10px rgb(124. 146, 143);
+	border: 2px solid rgba(194, 171, 194, 0.3);
+	transform: translateY(3px);
+}
+		
+.a:hover i{
+	transform: scale(0.85);
+}
+		
+.a:hover .fa-instagram{
+	color: e4405f;
+}
+		
+.a:hover .fa-facebook-f{
+	color: 3b5999;
+}
+		
+.a:hover .fa-twitter{
+	color: 55acee;
+}
+		
+.a:hover .fa-github{
+	color: #333333;
+}
+
+audio{
+	position: bottom
